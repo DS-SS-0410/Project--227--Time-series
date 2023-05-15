@@ -19,7 +19,7 @@ end_date = st.sidebar.date_input("End date", datetime.date(2021, 12, 31))
 ticker = st.sidebar.text_input("Enter the Ticker symbol", "AAPL")
 
 # Load the saved model
-loaded_model = joblib.load("finalfitmodel2.pkl")
+loaded_model = _unpickle("finalfitmodel2.pkl")
 
 # Load the historical stock data
 df = yf.download(ticker, start=start_date, end=end_date)
