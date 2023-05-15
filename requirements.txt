@@ -1,0 +1,8 @@
+streamlit
+pandas
+yfinance
+datetime
+joblib
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+pyforest 
+warnings
