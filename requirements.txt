@@ -3,6 +3,6 @@ pandas
 yfinance
 datetime
 joblib
-sarimax
+statsmodels
 pyforest 
 warnings
