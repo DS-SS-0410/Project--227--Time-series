@@ -1,4 +1,4 @@
-streamlib
+streamlit
 pandas
 yfinance
 datetime
