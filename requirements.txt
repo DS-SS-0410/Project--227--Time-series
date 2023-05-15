@@ -1,8 +1,8 @@
-streamlit
+streamlib
 pandas
 yfinance
 datetime
 joblib
 statsmodels
 pyforest
-streamlib
+
